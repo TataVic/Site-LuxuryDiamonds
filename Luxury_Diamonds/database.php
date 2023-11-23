@@ -19,6 +19,6 @@ try{
 	                 ,PDO::ERRMODE_EXCEPTION);
 
 }catch(PDOException $e){
-	echo 'ERRO DB: '.$e->getMessage();
+	echo ' Erro de conexão com o Banco de Dados! '.$e->getMessage();
 	exit;
 }
